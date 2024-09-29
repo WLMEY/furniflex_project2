@@ -23,6 +23,7 @@ body{
     --text_main: #515151;
     --text_sup:#383838;
     --text_bg:#FCF8F0;
+    --yellow:#FFBA35;
     --btn:#D09423;
     --btn_hover:#a5751c;
     --shadow:#E6EDEC;
@@ -33,6 +34,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    color: var(--text_sup);
 }
 .Asvertising div i{
     display: flex;
@@ -43,5 +45,6 @@ body{
     height: 40px;
     border-radius: 50%;
     color:black;
-    background-color: var(--btn);
+    background-color: var(--yellow);
+    box-shadow: -6px 0px 0px 0px var(--shadow);
 }
