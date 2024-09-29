@@ -160,6 +160,7 @@ justify-self: center;
         justify-content:center;
         align-items: center;
         width: 100vw;
+        padding: 0 5vw;
     }
     .cart{
         width: 100%;
@@ -171,7 +172,7 @@ justify-self: center;
         margin: 3vh 5vw;
     }
     .order_summary{
-        width: 80%;
+        width: 100%;
     }
     .order_summary .header{
         height: 40px;
