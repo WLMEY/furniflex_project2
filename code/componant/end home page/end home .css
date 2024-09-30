@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 52vh;
+    font-family: "Fredoka", sans-serif;
+}
+
+:root {
+    --color_main: #2D5356;
+    --color_sup: #FCF8F0;
+    --color_sup2: #F5F5F5;
+    --text_main: #515151;
+    --text_sup: #383838;
+    --text_bg: #FCF8F0;
+    --yellow: #FFBA35;
+    --btn: #D09423;
+    --btn_hover: #a5751c;
+    --shadow: #E6EDEC;
+}
+
+
+
+.endHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 2vh;
+
+
+}
+
+.start{
+    width: 100%;
+    text-align: center;
+    padding:5vh 0;
+
+}
+.logo{
+    margin: 2vh 0;
+}
+.logo span{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 3vh 10vw;
+    list-style-type: none;
+    width: 100%;
+    height: 100vh;
+    line-height: 30px;
+    /* background-color: red; */
+    color: var(--text_main);
+}
+
+.about li:hover,
+.information li:hover,
+.support li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+    background-color: var(--color_main);
+    color: var(--text_bg);
+    padding: 5vh 10vw;
+}
