@@ -6,11 +6,12 @@
 body{
     width: 100vw;
     
+    
 }
 .Asvertising{
     padding: 0 10vw;
     width: 100vw;
-    height: 30vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,4 +48,11 @@ body{
     color:black;
     background-color: var(--yellow);
     box-shadow: -6px 0px 0px 0px var(--shadow);
+}
+
+@media(min-width:1440px){
+    .Asvertising div i{
+        transform: scale(1.5);
+        margin-bottom: 10px;
+    }
 }
