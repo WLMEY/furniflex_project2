@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#2D5356;
+
+}
+.HOME{
+padding-left: 10px;
+width: 100vw;
+height: 100vh;
+font-family: "Poppins", sans-serif;
+}
+.StartHome{
+    width: 50%;
+    color: white;
+}
+.Firsthalf{
+    width: 50%;
+}
+.Field{
+
+}
+.buttons{
+    
+
+}
+.buttons a{
+    color: white;
+    text-decoration:underline;
+    text-underline-offset: 5px;
+    margin-left: 10px;
+    
+}
+.buttons input{
+    background-color:#D09423;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.Statistics{
+
+}
+.Statistic{
+
+}
+.Secondhalf{
+
+}
